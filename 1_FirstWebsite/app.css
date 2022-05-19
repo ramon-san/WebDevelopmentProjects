@@ -1,0 +1,24 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e1e2e1;
+}
+
+.bannerContainer:nth-col(odd) {
+ background-color: red;
+}
+
+.bannerHeader {
+    text-align: center;
+    font-weight: 700;
+    margin: 20px;
+    align-items: start;
+}
+
+.bannerText {
+    padding: 15px;
+    text-align: center;
+}
+
+.footerText {
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+.small-text {
+    font-size: x-small;
+    color: #777;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}

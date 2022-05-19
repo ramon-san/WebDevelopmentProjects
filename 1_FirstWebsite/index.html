@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <title>Fundamental Particles</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top">
+        <a class="navbar-brand" href="#physics">Physics</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#whenSmall">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="whenSmall">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="#nowhere" class="nav-item nav-link">About</a>
+                <a href="#nowhere" class="nav-item nav-link">Help</a>
+            </div>
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Main image of our site -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <img src="Photos/FundamentalParticles.svg" alt="Oops! Seems like the image is gone."
+                class="img-fluid w-50 my-3">
+        </div>
+    </div>
+
+    <!-- First banner -->
+    <section class="row align-items-center justify-content-center m-4 border-dark border-top">
+        <div class="col-lg-6">
+            <h3 class="bannerHeader">Wave Particle Duality</h3>
+            <hr class="w-50">
+            <p class="bannerText">An important concept when studying subatomic particles is the <a
+                    href="https://www.youtube.com/watch?v=Q_h4IoPJXZw"><i>wave particle duality</i></a>. This means
+                that their behavior is both that of a wave and that of a particle. This is a little bit hard to
+                cenceptualize, but we now have a lot of analogies to do so. Imagine this as a single wave of visible
+                light (a photon with a wavelength of about 500 nanometers), when this wave impacts a surface it does so
+                in a single point even though it's actually a wave. It's like a ship that creates waves, but when they
+                reach the shore it turns out to only appear in a single spot.</p>
+        </div>
+        <div class="col-lg-6">
+            <img src="Photos/WaveFunction.png" alt="Oops! Seems like the image is gone." class="img-fluid p-4">
+        </div>
+    </section>
+
+    <!-- Second banner -->
+    <section class="row align-items-top justify-content-center m-4 border-dark border-top">
+        <div class="col-lg-6">
+            <h3 class="bannerHeader">Fermions</h3>
+            <hr class="w-50">
+            <p class="bannerText">This are a special subset of subatomic particles and are known as <i>matter
+                    particles</i>. This subset is divided into Quarks and Leptons.</p>
+        </div>
+        <div class="col-lg-6">
+            <h3 class="bannerHeader">Bosons</h3>
+            <hr class="w-50">
+            <p class="bannerText">Another special subset of subatomic particles and they're known as <i>force
+                    particles</i>. This subset is responsible of the interactions between fermions; they are responsible
+                for electromagnetic, weak, and strong interactions.</p>
+        </div>
+    </section>
+
+    <!-- Third banner -->
+    <section class="row align-items-center justify-content-center m-4 border-dark border-top">
+        <div class="col-lg-6 order-2 order-lg-1">
+            <img src="Photos/PizzaBox.png" alt="Oops! Seems like the image is gone." class="img-fluid p-4">
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+            <h3 class="bannerHeader">Entanglement & Superposition</h3>
+            <hr class="w-50">
+            <p class="bannerText">This topics might be a little bit above the scope of this site, but
+                I think
+                they're
+                cool. <b>Entanglement</b> is a concept of quantum mechanics that represents a "link" between two or more
+                particles. <b>Superposition</b> is the state of a particle and this state is "unknown" until we observe
+                the particle. To link this two concepts let's use a metafor: imagine you order two pizzas, one cheese
+                and the other pepperoni, when the boxes are closed you don't know which one's which and thus we could
+                say they're in superposition, the interesting thing is that the moment we open one box (observe it) we
+                immediately know what's inside of the other box. In this simple metaphor we have entanglement between
+                the boxes because by knowing the state of one we know the state of the other and this same thing happens
+                between particles that might be zillions of miles appart.</p>
+        </div>
+    </section>
+
+    <!-- Fourth banner -->
+    <section class="row align-items-center justify-content-center m-4 border-dark border-top">
+        <div class="col-lg-6">
+            <h3 class="bannerHeader">Mathematics</h3>
+            <hr class="w-50">
+            <p class="bannerText">To end this brief introduction to the concept I leave you with an equation that can
+                model the behavior of particles (Schroedinger's equationtion).</p>
+        </div>
+        <div class="col-lg-6 order-2 order-lg-1">
+            <img src="Photos/SchroedingerEquation.png" alt="Oops! Seems like the image is gone." class="img-fluid p-4">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center bg-secondary p-5">
+        <p class="footerText">Hope you learned something!</p>
+        <p class="footerText">PS: The nav bottons only add a useless #nowhere to your URL.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

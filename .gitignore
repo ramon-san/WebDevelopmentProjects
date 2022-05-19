@@ -1,0 +1,5 @@
+# Ignore Apple files.
+*.DS_Store
+
+# Ignore any possible node_modules folder.
+node_modules

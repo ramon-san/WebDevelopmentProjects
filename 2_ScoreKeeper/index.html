@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper!</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <main style="margin-top: 50px" class="container justify-content-center w-50 m-25 border border-dark rounded">
+
+        <!-- Image panel -->
+        <section id="image-container" class="m-3">
+            <img src="https://media.istockphoto.com/photos/football-soccer-ball-on-grass-field-on-stadium-picture-id1312143573?k=20&m=1312143573&s=612x612&w=0&h=t31rN2Iz1clnUVwLJ9dyO1plUojoIqcaKpqJUZTUw8Y="
+                alt="Oops! Seems like the image is gone." class="img-fluid">
+        </section>
+
+        <!-- Small title panel -->
+        <section id="content-window">
+            <p class="small-text m-1">Soccer score keeper!</p>
+        </section>
+
+        <!-- Control panel -->
+        <section id="control-window">
+            <p class="m-1 display-4">
+                <span id="result-player-1">0</span> to
+                <span id="result-player-2">0</span>
+            </p>
+            <p class="small-text m-1">Use the button below to keep the score.</p>
+            <label for="score-select">Playing to</label>
+            <select name="score" id="score-select" class="border rounded">
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+            </select>
+        </section>
+
+        <!-- Button panel -->
+        <section id="play-window" class="row">
+            <button id="counter-player-1" class="col-4 btn btn-danger">+1 Player One</button>
+            <button id="counter-player-2" class="col-4 btn btn-success">+1 Player Two</button>
+            <button id="reset-score" class="col-4 btn btn-warning">Reset Score</button>
+        </section>
+    </main>
+
+    <!-- <script type="module" src="backend.js"></script> -->
+    <script src="app.js"></script>
+</body>
+
+</html>
