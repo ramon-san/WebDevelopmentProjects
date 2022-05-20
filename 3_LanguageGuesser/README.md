@@ -1,6 +1,6 @@
 # Language Guesser
 
-> Code of a very basic website (that isn't published) that I did along side a web development course.
+> Code of a very basic NodeJS project that I did along side a web development course.
 
 **Generic:** This code has be run using NodeJS, it is not meant to be a website. It was made for didactical reasons and uses a bunch of different NodeJS packages to work. The purpose of this code is to consolidate all the things I´ve been shown in the course so far.
 
