@@ -1,6 +1,6 @@
 # Web Development Projects
 
-A few web development projects I did during [Colt Stelee's Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/).
+A few web development projects I did during [Colt Stelee's Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/){:target="_blank"}.
 
 The folder contains the following proyects:
 
