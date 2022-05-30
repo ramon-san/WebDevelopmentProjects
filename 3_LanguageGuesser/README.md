@@ -11,7 +11,7 @@
 To run this code first run the following command while on this directory level:
 
 ```shell
-$ npm install
+npm install
 ```
 
 This will download all required packages based on the package.json file contained in this repository. To run npm commands you have to download [NodeJS](https://nodejs.org/en/).
@@ -25,5 +25,5 @@ Used packages:
 Once you've got the project in your computer run the program as follows for a quick example.
 
 ```shell
-$ node index.js "This is a brief example parameter that should detect the language as English."
+node index.js "This is a brief example parameter that should detect the language as English."
 ```
